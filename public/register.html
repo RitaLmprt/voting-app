@@ -1,0 +1,14 @@
+<h3>Registration</h3>
+<h3 ng-if="vm.error">{{vm.error}}</h3>
+<hr>
+<div class="form-group">
+    <label for="usr">Name:</label>
+    <input type="text" class="form-control" ng-model="vm.user.name">
+</div>
+<br>
+<div class="form-group">
+    <label for="pwd">Password:</label>
+    <input type="password" class="form-control" ng-model="vm.user.password">
+</div>
+<br>
+<button class="btn btn-success" ng-click="vm.register()" ng-disabled="!vm.user || !vm.user.password || !vm.user.name">Register</button>

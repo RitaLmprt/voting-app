@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "angular": "^1.6.8",
+    "angular-jwt": "latest",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "json-web-token": "^2.0.3",
+    "jsonwebtoken": "^7.2.1",
+    "mongoose": "^4.7.1",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.13.0"
+  }
+}
